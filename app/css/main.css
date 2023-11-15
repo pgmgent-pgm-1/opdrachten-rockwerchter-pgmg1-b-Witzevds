@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  padding: 2rem;
+}
+
+.navigation {
+  display: flex;
+  gap: 4rem;
+}
+.navigation a {
+  color: white;
+  text-decoration: none;
+}
+
+.artists-container {
+  flex-wrap: wrap;
+  min-height: 80vw;
+  justify-content: center;
+}
+.artists article {
+  max-width: 30vw;
+  flex-wrap: wrap;
+}
+
+.artists {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-width: 90vw;
+}
+.artists img {
+  padding: 1rem;
+  max-width: 30vw;
+}
+
+.container-clock {
+  background-color: rgb(34, 33, 33);
+  text-align: center;
+}
